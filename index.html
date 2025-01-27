@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi Portfolio</title>
+        <link rel="shortcut icon" href="" type="imagen/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfolio</title>
+    </head>
+    <body class="body">
+        <header class="contenedor">
+            <div class="logo">
+                    <a href="#">Cristian</a>
+            </div>
+            <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclik="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclik="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#skills" onclik="seleccionar()">SKILLS</a></li>
+                        <li><a href="#curriculum" onclik="seleccionar()">CURRICULUM</a></li>
+                        <li><a href="#portfolio" onclik="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#contacto" onclik="seleccionar()">CONTACTO</a></li>
+                    </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <main class="main">
+                <section id="inicio" class="inicio">
+                    <div class="perfil">
+                    <div class="rostro">
+                        <img src="public/img/cara.png" class="cara" alt="">
+                    </div>
+                    <a href="#cristian andres nuñez">CRISTIAN ANDRES NUÑEZ</a>
+                    <h2 href="#estudiante de desarrollo web full stack" >ESTUDIANTE DE DESARROLLO WEB FULL STACK</h2>
+                    <div class="redes-sociales">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    </div>
+                </section>
+                <section id="sobremi" class="sobremi">
+                        <div class="contenido-section">
+                            <h2>Sobre mi:</h2>
+                            <p><span>Hola soy  Cristian Nuñez</span> un estudiante de programacion,
+                            realice varios cursos. Soy un apasionado de la programacion, siempre
+                            tuve un interes por la informatica y me intereso mucho, hasta que comence
+                            a investigar mas y descubri la programacion y de ahi comence a aprender
+                            mas y eso se volvio una pasion y descubri que es algo que me gusta poder crear
+                            cosas con determinados conocimientos, eso se volvio una ambicion de aprender
+                            mas y poder llegar a ser un profesional</p>
+                            <div class="fila">
+                                <!--Datos Personales-->
+                                <div class="col">
+                                    <h3>Datos Personales</h3>
+                                    <ul>
+                                        <li>
+                                            <strong>Cumpleaños:</strong>
+                                            15/08/1977
+                                        </li>
+                                        <li>
+                                            <strong>Telefono:</strong>
+                                            (+54) 342 4631434   
+                                        </li>
+                                        <li>
+                                            <strong>Email:</strong>
+                                            crisn3682@gmail.com
+                                        </li>
+                                        <li>
+                                            <strong>Direccion:</strong>
+                                            1º Mayo 1376 Nelson, Santa Fe, Argentina
+                                        </li>
+                                        <li>
+                                            <strong>Cargo:</strong>
+                                            <span>FREELANCER</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Intereses-->
+                               <div class="col">
+                                     <h3>Intereses</h3>
+                                    <div class="contenedor-intereses"> 
+                                        <div class="interes">
+                                            <i class="fa-solid fa-music"></i>
+                                            <span>MUSICA</span>
+                                        </div>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-plane"></i>
+                                            <span>VIAJAR</span>
+                                        </div>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-desktop"></i>
+                                            <span>DESTOP</span>
+                                        </div>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-dumbbell"></i>
+                                            <span>DEPORTE</span>
+                                        </div>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-book"></i>
+                                            <span>LIBROS</span>
+                                        </div>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-car"></i>
+                                            <span>AUTOS</span>
+                                        </div>
+                                    </div>
+                                    <button>
+                                        Descargar CV <i class="fa-solid fa-download"></i>
+                                        <span class="overlay"></span>
+                                    </button>
+                                </div>
+                           
+                        </div>
+                </section>
+                <!-- SECCION SKILLS -->
+                <section  id="skills" class="skills" >
+                    <div class="contenido-section">
+                        <h2>Skills</h2>
+                        <div class="fila">
+                            <!--Tecnica Skill -->
+                            <div class="col">
+                                <h3>Technical Skills</h3>
+                                <div class="skill">
+                                    <span>Javascript</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>58%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>HTML & CSS</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>89%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Javascript</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>48%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Profesional Skills-->
+                            <div class="col">
+                                <h3>Profesional Skills</h3>
+                                <div class="skill">
+                                    <span>Comunicacion</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>55%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Trabajo en Equipo</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>70%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Creatividad</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>59%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Dedicacion</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>67%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>  
+                <!-- SECCION CURRICULUM -->
+                <section id="curriculum" class="curriculum">
+                    <div class="contenido">
+                        <h2 class="curriculun">Curriculum</h2>
+                        <div class="fila">
+                            <div class="col-izquierda">
+                                <h3>Educacion</h3>
+                                <div class="item izq">
+                                    <h4>Programacion desde 0</h4>
+                                    <span class="casa">Egg</span>
+                                    <span class="fecha">2022</span>
+                                    <p>El curso estaba oriendadoa fundamentos de la programacion, se realizo en un total de 81 horas teoricas y practicas</p>
+                                    <div class="conectori">
+                                        <div class="ciculoi"></div>
+                                    </div>
+                                </div>
+                                <div class="item izq">
+                                    <h4>Desarrollo Web</h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha"> Noviembre 2022 - enero 2023</span>
+                                    <p>El curso de desarrollo web se realizo en un total de 38 horas en un periodo de 10 semanas</p>
+                                    <div class="conectori">
+                                        <div class="ciculoi"></div>
+                                    </div>
+                                </div>
+                                <div class="item izq">
+                                    <h4>Javascript</h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha">Abril 2023 - Junio 2023</span>
+                                    <p>El curso de Javascript se realizo en un total de 36 horas en un periodo de 9 semanas</p>
+                                    <div class="conectori">
+                                        <div class="ciculoi"></div>
+                                    </div>
+                                </div>
+                                <div class="item izq">
+                                    <h4>React</h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha"> noviembre 2023 - Enero 2024</span>
+                                    <p>El curso de React se realizo en un total de 30 horas en un periodo de 8 semanas</p>
+                                    <div class="conectori">
+                                        <div class="ciculoi"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col-derecha">
+                                <h3>Experiencia de Trabajo</h3>
+                                <div class="item der">
+                                    <h4>Programacion Backend 1 Desarrollo Avanzado de Backend</h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha"> Julio 2024 - Septiembre 2024</span>
+                                    <p>El curso de Programacion Backend 1 se realizo en un total de 36 horas en un periodo de 9 semanas</p>
+                                    <div class="conectord">
+                                        <div class="ciculod"></div>
+                                    </div>
+                                </div>
+                                <div class="item der">
+                                    <h4>Programacion Backend 2 Diseño y Arquitectura Backend</h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha"> Enero 2025 - Marzo 2025</span>
+                                    <p>El curso de Programacion Backend 2 se realizo en un total de 16 horas en un periodo de 8 semanas</p>
+                                    <div class="conectord">
+                                        <div class="ciculod"></div>
+                                    </div>
+                                </div>
+                                <div class="item der">
+                                    <h4>Programacion Backend 3 Testing y Escalabilidad </h4>
+                                    <span class="casa">Coderhouse</span>
+                                    <span class="fecha">septiembre 2024 - Noviembre 2024</span>
+                                    <p>El curso de Progracion Backend 3 se realizo en un total de 30 horas en un periodo de 8 semanas</p>
+                                    <div class="conectord">
+                                        <div class="ciculod"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+                <!--SECCION PORTFOLIO -->
+                <section id="portfolio" class="portfolio">
+                <h2 class="titulo">PORTFOLIO</h2>
+                <h3 class="subt"> Mis Proyectos</h3>    
+                <div class="galeria"> 
+                    <div class="cont-grid">         
+                        <div class="card">
+                                <img src="public/img/desarrollo.webp" class="imagen" alt="imagen 1" loading="lazy">
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de Desarrollo Web</h3>
+                                    <h4 class="tit-proy">La Fortaleza</h4>
+                                    <p> 
+                                    Este proyecto fue hecho, como proyecto final en el
+                                    curso de desarrollo web
+                                    </p>
+                                </div>
+                                <div class="ver">
+                                    <a href="https://github.com/Lalo-77/PROYECTO-LA-FORTALEZA.git">Ver Proyecto</a> 
+                                </div>
+                         </div>                
+                        <div class="card">
+                                <img src="public/img/javascript.png" class="imagen" alt="imagen 2" loading="lazy" />
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de Javascript</h3>
+                                    <h4 class="tit-proy">Carrito Compras</h4>
+                                    <p>
+                                        Este proyecto fue hecho, como proyecto final en el
+                                        curso de Javascript
+                                    </p>
+                                </div>
+                            <a href="https://github.com/Lalo-77/Carrito-Compras.git">Ver Proyecto</a> 
+                        </div>
+                        <div class="card">
+                                <img src="public/img/react.png" class="imagen" alt="imagen 3" loading="lazy"/>
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de React</h3>
+                                    <h4 class="tit-proy">Tienda El Arca de Noe</h4>
+                                    <p>
+                                        Este proyecto fue hecho, como proyecto final en el
+                                        curso de React
+                                    </p>
+                                </div>
+                            <a href="https://tienda-el-arca-de-noe.vercel.app/">Ver Proyecto</a>
+                        </div>
+                        <div class="card">
+                                <img src="public/img/backend-1.png" class="imagen" alt="imagen 4" loading="lazy" />
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de Backend 1</h3>
+                                    <h4 class="tit-proy">Desarrollo Avanzado de Backend</h4>
+                                    <p>
+                                        Este proyecto fue hecho, como proyecto final en el
+                                        curso de Programacion Backend 1
+                                    </p>
+                                </div>
+                            <a href="https://github.com/Lalo-77/Proyecto_Backend_1.git">Ver Proyecto</a>
+                        </div>
+                        <div class="card">
+                                <img src="public/img/desarrollo.webp" class="imagen" alt="imagen 5" loading="lazy" />
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de Backend 2</h3>
+                                    <h4 class="tit-proy">Diseño y Arquitectura Backend</h4>
+                                    <p>
+                                        Este proyecto fue hecho, como proyecto final en el
+                                        curso de Programacion Backend 2
+                                    </p>
+                                </div>
+                            <a href="">Ver Proyecto</a>
+                        </div>
+                        <div class="card">
+                                <img src="public/img/backend-3.png" class="imagen" alt="imagen 6" loading="lazy" />
+                                <div class="overlay">
+                                    <h3 class="tit">Proyecto de Backend 3</h3>
+                                    <h4 class="tit-proy">Testing y Escalabilidad Backend</h4>
+                                    <p>
+                                        Este proyecto fue hecho, como proyecto final en el
+                                        curso de Programacion Backend 3
+                                    </p>
+                                </div>
+                            <a href="https://github.com/Lalo-77/proyecto-backend3.git">Ver Proyecto</a>
+                        </div>
+                    </div>   
+                </div>
+                </section>
+                <!--SECCON CONTACTO-->
+                <section id="contacto" class="contacto">
+                    <div class="cont-seccion">
+                        <h2>CONTACTO</h2>
+                        <div class="fila">
+                        <!-- formulario -->
+                                <div class="uno" >
+                                    <legend class="subt2">Ingresa tus datos</legend>
+                                    <span>Nombre:</span>
+                                    <input type="text" id="nombre" placeholder="ingresa tu nombre">
+                                    <span>Numero de Telefono:</span>
+                                    <input type="text" id="telefono" placeholder="ingresa tu telefono">
+                                    <span>Email:</span>
+                                    <input type="email" id="e-mail" placeholder="ingresa tu mail" required>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                                    <button id ="enviar" type="submit" value="enviarMensaje" >
+                                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i> 
+                                        <span class="overlay"></span>  
+                                    </button>
+                                </div>
+                         <!-- Mapa -->
+                            <div class="ubic">
+                                <img src="public/img/mapa.png" alt="ubicacion">
+                                <div class="info">
+                                    <ul>
+                                            <li>
+                                            <i class="fa-solid fa-location-dot"></i>
+                                                Direccion: 1º Mayo 1376, Nelson Santa Fe
+                                            </li>
+                                            <li>
+                                            <i class="fa-solid fa-mobile-screen"></i>
+                                                 Llamanos: 342 - 4621434
+                                            </li>
+                                            <li>
+                                            <i class="fa-solid fa-envelope"></i>
+                                                Email: crisn3682@gmail.com
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="pie">
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes-sociales">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </footer>
+        <script src="js/caroussel.js"></script>
+    </body>
+</html>
